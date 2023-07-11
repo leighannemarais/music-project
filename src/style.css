@@ -4,6 +4,7 @@ header h1 {
   font-weight: 700;
   line-height: 1.5;
   margin: 0;
+  text-transform: uppercase;
 }
 header h2 {
   font-size: 30px;
@@ -34,7 +35,7 @@ header {
   background-position: center;
   color: white;
   text-align: center;
-  padding: 240px 0;
+  padding: 200px 0;
 }
 header a {
   text-align: center;
