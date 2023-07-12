@@ -22,6 +22,15 @@ h3,
 p {
   font-family: Roboto;
 }
+h5 {
+  color: #5bd5e3;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
 p {
   font-size: 16px;
   font-weight: 400;
@@ -51,6 +60,18 @@ header a {
   margin-top: 32px;
   color: white;
 }
+main {
+  background-color: #12101d;
+  color: white;
+}
+main p {
+  color: #f9f4ff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
 footer {
   color: white;
@@ -59,7 +80,6 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 100px 0;
 }
 footer h4 {
   font-family: Playfair Display;
@@ -87,6 +107,7 @@ footer li {
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 100px 0;
 }
 .container {
   max-width: 1400px;
@@ -94,9 +115,20 @@ section {
 }
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
-  grid-gap: 64px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 36px;
 }
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+.grid-3-columns-with-first-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+.section-1-img {
+  max-width: 300px;
+  margin-left: 80px;
+}
+
 @media (max-width: 900px) {
   header {
     padding: 60px 0;
@@ -113,5 +145,12 @@ section {
   header a {
     padding: 12px 20px;
     font-size: 12px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 18px;
+  }
+  section {
+    padding: 30px;
   }
 }
