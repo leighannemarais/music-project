@@ -101,7 +101,7 @@ footer li {
 section {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 80px 0;
 }
 .container {
   max-width: 1400px;
@@ -160,12 +160,15 @@ section {
 .card-body {
   padding: 30px;
 }
-
 .secondary .btn {
   display: block;
 }
 .secondary h3 {
   padding-top: 30px;
+}
+.songs-embed h5,
+h2 {
+  text-align: center;
 }
 @media (max-width: 900px) {
   header {
