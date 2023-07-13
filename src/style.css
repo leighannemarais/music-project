@@ -175,7 +175,7 @@ section {
     padding: 60px 0;
   }
   header h1 {
-    font-size: 64px;
+    font-size: 50px;
   }
   header h2 {
     font-size: 15px;
@@ -187,11 +187,21 @@ section {
     padding: 12px 20px;
     font-size: 12px;
   }
+  section {
+    padding: 30px;
+  }
+  footer h4 {
+    font-size: 18px;
+  }
+  footer p {
+    font-size: 14px;
+  }
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 18px;
   }
-  section {
-    padding: 30px;
+
+  .section-1-img {
+    max-width: 150px;
   }
 }
